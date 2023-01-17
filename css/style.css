@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+header #logo{
+  padding: 8px 12px;  
+}
+
+header h1{
+    display: inline-block;
+    line-height: 200%;
+    vertical-align: top;
+}
+
