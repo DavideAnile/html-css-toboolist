@@ -3,17 +3,205 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 
+   /* header  */
 
-header #logo{
-  padding: 8px 12px;  
+header{
+    background-color: #ffffff ;
+}   
+
+header #logo{    
+  padding: 8px 12px;
+  background-color: #ffffff;  
 }
 
 header h1{
     display: inline-block;
     line-height: 200%;
     vertical-align: top;
+    background-color: #ffffff;
 }
+  /* /header */
+
+
+
+  
+        /*  contenitore-Main */
+body{
+    background-color: #f6f8f9 ;
+}    
+
+.contenitore{
+    height: 800px ;
+    width: 1000px;
+    background-color: #ffffff;
+    margin-top: 70px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 12px;
+  }
+
+    /* /Contenitore-main */
+
+.contenitore button{
+    padding: 7px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+     /* navbar */
+#add-task-button{    
+    margin-left: 80px;
+    background-color:#47adf1 ;
+    color: white;
+    border: none;
+    font-size: ;
+}
+#add-section-button{
+    color: grey;
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+#separator{
+    height: 10px;
+    border: none;
+    background-color: #f6f8f9; 
+}
+    /* /Navbar */
+
+.contenuto{
+    margin-left: 80px;
+    
+}
+
+.titoli{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+ /* Marks */
+#checkmark{
+    border: 1px solid green;
+    color: green;
+    padding: 5px;
+    border-radius: 50%;
+}
+ 
+#red-mark{
+    border: 1px solid red;
+    color: red;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+  /* /Marks */  
+    
+    
+    
+    
+h4{
+    margin-top: 20px;
+}
+
+
+/* end-boxies */
+
+.editorial{
+    font-size: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid none;
+    color: white;
+    border-radius: 20px;
+    background-color: #45abea;
+}
+
+#Q1-Goals{
+    font-size: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid none;
+    color: white;
+    border-radius: 20px;
+    background-color: #9c72e4;
+
+}
+
+#Recruiting{
+    font-size: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid none;
+    color: white;
+    border-radius: 20px;
+    background-color: #64c0a9;
+}
+
+#Mobile{
+    font-size: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid none;
+    color: white;
+    border-radius: 20px;
+    background-color: #f29e33;
+}
+
+
+#Website{
+    font-size: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid none;
+    color: white;
+    border-radius: 20px;
+    background-color: #d863a1;
+}
+
+#Sales{
+    font-size: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 8px;
+    border: 1px solid none;
+    color: white;
+    border-radius: 20px;
+    background-color: #b0c926;
+}
+
+/* /end-boxies */
+
+
+footer{
+    text-align: center;
+}
+
+
+
+
+
+
+   
+   
+   
+
+    
+
+  
+  
+
+
+
+
+
 
